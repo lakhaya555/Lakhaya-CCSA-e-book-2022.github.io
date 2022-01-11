@@ -1,0 +1,217 @@
+.webpage{
+  border-radius: 40px;  
+  padding: 10px;
+  border: 30px solid rgb(172, 228, 247);
+  margin: 0;
+  background-color: silver;
+}
+.background{
+  width: 100%;
+  background-image: url('images/image3.jpg');
+  background-size: cover;
+  position: relative;
+  height: 100%; 
+}
+.logo{
+  padding-right: 59px;
+  box-shadow: 10px 0px 1px rgb(7, 21, 212);
+  background-color: rgb(16, 16, 19);
+  padding-left: 0px;
+  font-size: 25px;
+  border: 20px yellowgreen[];
+  border-radius: 200px;
+  width: 0px;
+  height: 0px;
+  border-width: 37px;
+  border-collapse: collapse;
+  border-left-color: blanchedalmond;
+  border-top-color: rgb(46, 42, 42);
+  border-right-color: blanchedalmond;
+  color: yellowgreen;
+  text-shadow: 1.5px 1.5px 10px purple;
+  text-rendering: calc(10);
+  font-family:'Times New Roman', Times, serif;
+}
+.front{
+  box-shadow: 5px 10px 20px red;
+  font-family: 'Times New Roman', Times, serif ;
+  font-size: 36px;
+  font-weight: 600px;
+  text-align: center;
+  color:white;
+  text-shadow: 5px 10px 20px blue;
+}
+.front1{
+  color: black;
+   font-size: 30px;
+   font-weight: 400px;
+   line-height: 35px;
+   padding: 10px;
+   color: black;
+   text-shadow: 1px 1px 5px red;
+}
+.my-button{
+  width: 100px;
+  height: 50px;
+  font-size: 15px ;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(14, 117, 252);
+  color:rgb(15, 240, 8);
+  border:3px solid white;
+  box-shadow: 4px 4px 7px red;
+  border-radius: 10px;  
+}
+.my-button:hover{
+  background-color: white;
+  box-shadow: 4px 4px 7px black;
+  border:3px solid black;
+}
+a{
+  font-size: 19px;
+  color:red;
+  text-shadow: 1px 1px 1px rgb(250, 249, 248);
+}
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.course-col{
+  font-family: 'Times New Roman', Times, serif ;
+  flex-basis: 10%;
+  background: black;
+  border-radius: 25px;
+  margin-bottom: 5%;
+  padding: 15px 1px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px white;
+}
+h3{
+  color: rgb(243, 237, 237);
+  text-align: center;
+  margin: 10px 0;
+}
+.course-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0,2);
+}
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+.name1{
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow:1px 1px 2px yellow;
+  color: rgb(241, 10, 10);
+  text-align: center;
+  font-size: 27px;
+
+}
+.icg{
+  color: whitesmoke;
+   font-size: 15px;
+   font-weight: 200px;
+   line-height: 22px;
+   padding: 10px;
+   width: 210px;
+   height:180px;
+   text-align: left;
+}
+.click{
+  text-align:center;
+}
+.click:hover{
+  color: yellowgreen;
+  border: 5px solid rgb(245, 8, 59);
+  border-radius: 10px;
+  box-shadow: 4px 4px 7px white;
+}
+.name2{
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow:1px 1px 2px yellow;
+  color: rgb(241, 10, 10);
+  text-align: center;
+  font-size: 28px;
+}
+.or{
+  color: whitesmoke;
+   font-size: 17px;
+   font-weight: 200px;
+   line-height: 22px;
+   padding: 10px;
+   width: 210px;
+   height:180px;
+   text-align: left;
+}
+.name3{
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow:1px 1px 2px yellow;
+  color: rgb(241, 10, 10);
+  text-align: center;
+  font-size: 23px;
+}
+.iwpt{
+  color: white;
+   font-size: 15px;
+   font-weight: 200px;
+   line-height: 22px;
+   padding: 10px;
+   width:210px;
+   height:180px;
+   text-align: left;
+}
+.name4{
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow:1px 1px 2px yellow;
+  color: rgb(241, 10, 10);
+  text-align: center;
+  font-size: 31px;
+}
+.cc{
+  color: whitesmoke;
+   font-size: 15px;
+   font-weight: 200px;
+   line-height: 22px;
+   padding: 10px;
+   width: 210px;
+   height:180px;
+   text-align: left;
+}
+.routine0{
+  background-image: url('images/image13.jpg');
+  background-size: cover;
+  position: relative;
+  overflow: scroll; 
+}
+.routine{
+  text-align: center;
+  color:blue;
+  background-color: tomato;
+}
+.routine1{
+  border-radius: 5px; 
+  border:5px solid rgb(241, 23, 8);
+  box-shadow: 4px 4px 5px lightgray;
+  color: rgb(221, 221, 226);
+  text-align: center;
+  table-layout: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: .5px .5px 1px blue;
+
+}
+th{
+  text-shadow: 1px 1px 10px white;
+  height: 60px;
+}
+td{
+  height: 50px;
+}  
+

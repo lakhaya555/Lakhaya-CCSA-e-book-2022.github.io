@@ -1,0 +1,74 @@
+body{
+    background-color: silver; 
+    border: 30px solid rgb(172, 228, 247);
+    border-radius: 40px;
+}
+.back{
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    position: relative;
+    height: 100%; 
+    width: 100%;
+}
+h1{
+    border-width: 30px;
+    border-radius: 5px; 
+    box-shadow: 5px 5px 20px red;
+    color: red;
+    font-size: 40px;
+    text-shadow: 1.5px 1.5px 5px white;
+    text-rendering: calc(10);
+}
+div {
+    padding: 10px;
+    margin: 0;
+    text-shadow: 1.5px 1.5px red;    
+  }
+h1{
+    text-align: center;
+}
+.iwpt{
+    border-width:3px;
+    text-align: center; 
+    box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1.5px 1.5px 5px red;
+}
+.table{
+    border-radius: 5px; 
+    background-color: gray;
+    margin-left: auto ;
+    margin-right: auto;  
+    padding: 10px;   
+    border-radius: 10px; 
+    padding: 7px ;
+}
+
+.UNIT{
+    text-align: center;
+    background-color:cornflowerblue;
+    padding: 10px;
+}
+a{
+   color: rgb(102, 3, 81);
+}
+a:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    border: 2px solid whitesmoke ;
+    color: white;
+    text-shadow: 10px 4px 3px black;
+}
+.download{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.download:hover{
+    color: yellowgreen;
+    border: 5px solid rgba(3, 81, 248, 0.822);
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px white;
+}
+.download.img{
+    border-collapse: separate;
+}
